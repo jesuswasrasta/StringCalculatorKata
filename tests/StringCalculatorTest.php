@@ -29,4 +29,13 @@ final class StringCalculatorTest extends TestCase
 
         $this->assertEquals(1, $result);
     }
+
+    public function testIfIWillPassNumberYouWillReturnNumber(): void
+    {
+        $this->calculator = new StringCalculator();
+
+        $result = $this->calculator->add('12');
+
+        $this->assertEquals(12, $result);
+    }
 }

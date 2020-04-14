@@ -29,6 +29,11 @@ class StringCalculator
      */
     public function add(string $numbersString): int
     {
+        if(!empty($numbersString)) {
+            return (int)$numbersString;
+        }
+
         return 0;
+
     }
 }
