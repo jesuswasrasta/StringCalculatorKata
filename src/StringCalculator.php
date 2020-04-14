@@ -29,11 +29,12 @@ class StringCalculator
      */
     public function add(string $numbersString): int
     {
-        if(!empty($numbersString)) {
-            return (int)$numbersString;
+        if(empty($numbersString)) {
+            return 0;
         }
 
-        return 0;
+        $values = explode(",",$numbersString);
+        return array_sum($values);
 
     }
 }

@@ -35,4 +35,10 @@ final class StringCalculatorTest extends TestCase
         $result = $this->calculator->add('2,3');
         $this->assertEquals(5, $result);
     }
+
+    public function testIfIWillPassTwoPlusThreePlusFourItWillReturnNine(): void
+    {
+        $result = $this->calculator->add('2,3,4');
+        $this->assertEquals(9, $result);
+    }
 }
