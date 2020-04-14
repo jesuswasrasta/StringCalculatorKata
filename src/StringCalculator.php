@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: san
@@ -28,6 +29,6 @@ class StringCalculator
      */
     public function add(string $numbersString): int
     {
-        throw new \RuntimeException('Not implemented!');
+        return 0;
     }
 }

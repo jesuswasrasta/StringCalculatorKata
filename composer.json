@@ -8,7 +8,5 @@
         "phpunit/phpunit": "^8",
         "phpmd/phpmd": "2.6.0"
     },
-    "require": {
-
-    }
+    "require": {}
 }
